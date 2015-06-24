@@ -6,9 +6,6 @@
   "repository": "",
   "license": "Proprietary",
   "private": true,
-  "scripts": {
-    "start": "node server/myServer.js"
-  },
   "dependencies": {
     "bcrypt-node": "^0.1.0",
     "bluebird": "^2.9.30",
