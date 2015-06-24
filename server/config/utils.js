@@ -1,4 +1,4 @@
-var app = require('../myServer');
+var app = require('../server');
 var jwt = require('jwt-simple');
 var moment = require('moment');
 
