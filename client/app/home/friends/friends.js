@@ -81,6 +81,14 @@ angular.module('howWasIt.friends', [])
     });
 
     $rootScope.friendMarkers.push(location.marker);
+
+    // set focus on these markers
+    var bounds = new google.maps.LatLngBounds();
+    bounds.extend(location.marker.position);
+
+    $rootScope.map.fitBounds(bounds);
+
+
     return location;
   };
 

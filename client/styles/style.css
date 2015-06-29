@@ -1,4 +1,9 @@
 #map-canvas {
-  height: 500px;
-  width:500px;
+  height: 580px;
+  width:900px;
 }
+
+input {
+  display:block;
+}
+
