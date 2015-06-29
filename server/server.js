@@ -21,7 +21,7 @@ app.use(express.static(__dirname + "/../client"));
 
 // Hide this
 app.set('jwtTokenSecret', 'secretString');
-app.use(expressJWT({ secret: app.get('jwtTokenSecret')}).unless({path: ['/login', '/signup']}));
+app.use(expressJWT({ secret: app.get('jwtTokenSecret')}).unless({path: ['/login', '/signup', '/favicon.ico']}));
 
 app.use("/", router);
 
